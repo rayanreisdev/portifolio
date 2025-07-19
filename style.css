@@ -196,7 +196,7 @@ body {
 }
 
 /* === AJUSTES PARA CELULAR (responsivo) === */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .lista {
         
         align-items: center;
