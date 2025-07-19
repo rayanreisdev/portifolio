@@ -64,6 +64,11 @@ body {
 .menu {
     background-color: black;
     padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .lista {
@@ -246,4 +251,15 @@ body {
     border-radius: 10px;
     background: #fff;
   }
+
+  .menu {
+    background-color: black;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 }
