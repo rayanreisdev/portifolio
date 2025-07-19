@@ -149,7 +149,7 @@ body {
 }
 
 .contato button:hover {
-  background: #1ebc5c;
+  background:Â #1ebc5c;
 }
 
 
@@ -251,5 +251,43 @@ body {
     .contato {
         width: 100%;
         padding: 15px;
+    }
+}
+
+/* ========== RESPONSIVIDADE ========== */
+@media (max-width: 768px) {
+    .logooo h1, .logooo p {
+        margin-top: 0;
+        height: auto;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .caixa p {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .hbds {
+        
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ryanl {
+        width: 150px;
+        height: 150px;
+    }
+
+    .lista {
+        gap: 40px;
+        align-items: center;
+    }
+
+    .lista li {
+        margin: 5px 0;
     }
 }
