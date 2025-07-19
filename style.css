@@ -122,7 +122,16 @@ body {
 }
 
 .contato input,
-.contato textarea,
+.contato textarea
+ {
+  width: 95%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
 .contato button {
   width: 100%;
   margin: 10px 0;
@@ -197,4 +206,16 @@ body {
 
 .btn-site:hover {
   background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
