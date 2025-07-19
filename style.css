@@ -210,12 +210,46 @@ body {
 
 
 @media (max-width: 768px) {
-  .container {
-    width: 95%;
-    padding: 10px;
-  }
 
-  h1 {
-    font-size: 24px;
-  }
+    .caixa p {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .ryanl {
+        width: 120px;
+        height: 120px;
+    }
+
+    .menu {
+        padding: 10px 10px;
+    }
+
+    .lista {
+        
+        align-items: center;
+    }
+
+    .hbds img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .projetos h2 {
+        font-size: 24px;
+    }
+
+    .projeto {
+        width: 100%;
+    }
+
+    .projetos-container {
+        gap: 10px;
+    }
+
+    .contato {
+        width: 100%;
+        padding: 15px;
+    }
 }
