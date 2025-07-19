@@ -237,4 +237,13 @@ body {
     .projeto {
         max-width: 90%;
     }
+
+    .contato {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+  }
 }
